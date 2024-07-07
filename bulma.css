@@ -1,0 +1,55 @@
+.footer{
+    background-color: rgb(217, 229, 230);
+}
+.orange{
+    background-color: orange;
+}
+hr{
+    width: 10%;
+    height: 4px;background-color: orange;
+    margin: 0 auto;
+}
+.box-icon{
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    border-radius: 50%;
+    line-height: 65px;
+    transition: all 350ms;
+    line-height: 100px;
+}
+.box-icon span{
+font-size: 60px;
+}
+.box-icon:hover{
+    color: rgb(0, 0, 0);
+    transform: translateY(-5px);
+    background-color: orange;
+    border-color: orange;
+    cursor: pointer;
+    size: 40px;
+    border-radius: 500px;
+    line-height: 100px;
+}
+h2{
+    font-size: 70px;
+    font-weight: bold;
+}
+.has-back-ground-image{
+    background-image: url('https://source.unsplash.com/g30P1zcOzXo/1600x900');
+    background-position: center;
+    
+}
+.card-content{
+    padding: 30px;
+    border-radius: 10%;
+    color: aliceblue;
+}
+.imag img{
+    border-radius: 30%;
+}
+
+.f1{
+    display: flex;
+    justify-content: baseline;
+}
